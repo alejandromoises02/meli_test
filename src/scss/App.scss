@@ -1,0 +1,36 @@
+body{
+    background-color: #EEEEEE;
+}
+
+.navback{
+    background-color: #FFE600;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    
+    .input_search{
+        width: 100%;
+        border: none;
+        
+    }
+    .input_search::placeholder {
+        color: #999999;
+        font-size: 16px;
+      }
+
+    .button_search{
+        border:0 none;
+        cursor:pointer;
+        outline:none;
+    }
+}
+
+
+
+
+
+
+
