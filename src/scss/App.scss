@@ -1,11 +1,19 @@
-body{
-    background-color: #EEEEEE;
-}
+
 
 .navback{
     background-color: #FFE600;
-}
+    height: 48px;
+    display: flex;
+    align-items: center;
+    
 
+    div div   img{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        height: 70%;
+    }
+    
+}
 
 .search{
     display: flex;
@@ -14,20 +22,81 @@ body{
     .input_search{
         width: 100%;
         border: none;
+        border-radius: 2px;
+        height: 80%;
+        
         
     }
     .input_search::placeholder {
         color: #999999;
-        font-size: 16px;
+        font-size: 18px;
       }
 
     .button_search{
         border:0 none;
         cursor:pointer;
         outline:none;
+        height: 80%;
     }
 }
 
+
+
+
+.prop_breadcrumb {
+    text-decoration :none;
+    color: #999999;
+    margin-right: 10px;
+
+    ;
+}
+
+.bann_breadcrumb{
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+
+.item_cont{
+    height: 208px;
+    background-color: white;
+    border: 1px solid #EEEEEE;
+    display: grid;
+    grid-template-columns: 3fr 4fr 4fr;
+
+    .img_items{
+        padding: 16px;
+        height: 180px;
+        width: 180px;
+        border-radius: 4px;
+    }
+    div .price_shipping{
+        display: flex;
+        align-items: center;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    div div h2{
+        font-size: 24px;
+        margin-right: 12px;
+    }
+    div h3{
+        font-size: 18px;
+        
+    }
+
+    h4{
+        padding-left: 50%;
+        margin-top: 45px;
+        font-size: 12px;
+    }
+}
+
+.justify{
+    padding-left: 0px !important;
+}
 
 
 

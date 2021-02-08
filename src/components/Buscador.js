@@ -11,11 +11,11 @@ const Buscador = () => {
   };
 
   return (
-    <div className="navback ">
+    <div className="navback">
       <div className="container">
-        <div className="row justify-content-center">
-          <LogoIcon className="col-1" />
-          <div className="col-9 search">
+          <div className="row">
+          <LogoIcon/>
+          <div className="search col-9">
             <input
               type="text"
               name="finder"
@@ -30,7 +30,7 @@ const Buscador = () => {
               </Link>
             </button>
           </div>
-        </div>
+          </div>
       </div>
     </div>
   );
